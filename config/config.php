@@ -1,6 +1,6 @@
 <?php
 
-const URL = 'http://localhost:8050/mvc-table/';
+const URL = 'http://localhost/mvc-table/';
 
 
 //database config

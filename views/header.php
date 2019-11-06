@@ -12,11 +12,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
+    <header>
+        <div class="">
+            
+            <span class="">Title</span>
+            
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="">
+                <a class="" href="<?= constant('URL');?>main">Home</a>
+                <a class="" href="<?= constant('URL');?>add">New</a>
+                <a class="" href="<?= constant('URL');?>find">Find</a>
+                <a class="" href="<?= constant('URL');?>help">Help</a>
+            </nav>
+        </div>
+
+    </header>
+    
     
 
-    <script src="<?= constant('URL');?>public/js/tabulator.min.js"></script>
-    <script src="<?= constant('URL');?>public/js/sweetalert2.all.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://unpkg.com/cheetah-grid@0.13.x"></script>
-</body>
-</html>
+   

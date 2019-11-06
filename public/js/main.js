@@ -25,7 +25,7 @@ var table = new Tabulator("#example-table", {
 	],
 });
 
-table.setData("http://localhost:8050/mvc-table/api/students")
+table.setData("http://localhost/mvc-table/api/students")
 
 
 // initialize
@@ -41,7 +41,7 @@ grid = new cheetahGrid.ListGrid({
       
     ],
     // Array data to be displayed on the grid
-    records: fetch("http://localhost:8050/mvc-table/api/students")
+    records: fetch("http://localhost/mvc-table/api/students")
                 .then(function(response) {
                     if(response.ok) {
                         return response.json()
